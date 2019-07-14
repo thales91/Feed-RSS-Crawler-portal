@@ -1,0 +1,17 @@
+{
+  "name": "feedtwitter",
+  "version": "1.0.0",
+  "description": "posta rss no twitter",
+  "main": "app.js",
+  "dependencies": {
+    "mongodb": "^3.1.13",
+    "rss-parser": "^3.6.2",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tsf.2007@gmail.com",
+  "license": "ISC"
+}
