@@ -6,6 +6,7 @@ import Feeds from '@/components/feeds/ListaFeeds.vue'
 import Feed from '@/components/feeds/Feed.vue'
 import Posts from '@/components/posts/ListaPosts.vue'
 import Post from '@/components/posts/Posts.vue'
+import Dashboard from '@/components/dashboard/Index.vue'
 
 Vue.use(VueRouter)
 
@@ -43,6 +44,11 @@ const routes = [{
     name: 'feed',
     path: '/feed',
     component: Feed
+},
+{
+    name: 'dashboard',
+    path:  '/',
+    component:Dashboard
 }]
 
 const router = new VueRouter({

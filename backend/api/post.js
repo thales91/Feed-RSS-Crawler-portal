@@ -44,5 +44,13 @@ module.exports = app =>{
         }
     }
 
-    return {get, getById, save}
+    const getDashboard = (req, res) =>
+    {
+        post.find({ $or: [{processado: false }, {processed: false}]},{},{skip: 0, limit:3})
+            .then(posts => {
+                res.status(200).json({ data: posts})
+            })  
+    }
+
+    return {get, getById, save, getDashboard}
 }

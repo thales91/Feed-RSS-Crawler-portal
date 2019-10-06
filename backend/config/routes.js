@@ -19,5 +19,8 @@ module.exports = app =>{
     
     app.route('/post/:id')
         .get(app.api.post.getById)
+
+    app.route('/posts/dashboard')
+        .get(app.api.post.getDashboard)
         
 } 
