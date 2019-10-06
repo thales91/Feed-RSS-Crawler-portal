@@ -37,7 +37,7 @@ export default {
             feeds: [],
             fields: [
             {field: 'nome', title: 'Nome', sortable: true},
-            {field: 'quantidade', title: 'Quantidade', sortable: true},
+            {field: 'TotalPosts', title: 'Quantidade', sortable: true},
             {field: 'quantidadeProcessado', title: 'Quantidade Processado'},        
             {field: 'ativo', title:'Ativo'}]
         }
